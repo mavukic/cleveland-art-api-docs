@@ -1,0 +1,67 @@
+---
+
+ sidebar_position: 1
+---
+# Cleveland Museum of Art Open Access API
+
+Access artwork and exhibition data from the Cleveland Museum of Art through a public REST API.
+
+The API provides collection data that can be used to build applications, research tools, digital exhibits, and educational projects.
+
+## What can you do with the API?
+
+You can:
+
+* Search the museum's artwork collection
+* Retrieve individual artwork records
+* Search exhibition records
+* Retrieve individual exhibitions
+* Access artwork images and collection metadata
+* Paginate through large result sets
+
+## Quick start
+
+The API does not require authentication or an API key.
+
+### Base URL
+
+```text
+https://openaccess-api.clevelandart.org/api/
+```
+
+### Make your first request
+
+Use the `artworks` endpoint to search the collection:
+
+```bash
+curl.exe "https://openaccess-api.clevelandart.org/api/artworks/?q=monet&limit=3"
+```
+
+The API returns the matching records as JSON.
+
+## Documentation
+
+### Getting Started
+
+Learn how to make your first request and understand the structure of API responses.
+
+[Get started →](./getting-started/introduction)
+
+### Guides
+
+Learn how to search the collection and paginate through large result sets.
+
+* [Search Artworks →](./getting-started/guides/search-artworks)
+* [Pagination →](./getting-started/guides/pagination)
+
+### API Reference
+
+Explore available endpoints, parameters, and response structures.
+
+[View the API Reference →](./reference/overview)
+
+### Error Handling
+
+Learn how to handle unsuccessful API requests and HTTP errors.
+
+[View Error Handling →](./error-handling)

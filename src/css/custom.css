@@ -1,0 +1,68 @@
+:root {
+  --ifm-color-primary: #6b5b95;
+  --ifm-color-primary-dark: #5d4e84;
+  --ifm-color-primary-darker: #514474;
+  --ifm-color-primary-darkest: #443861;
+
+  --ifm-color-primary-light: #7a6ba3;
+  --ifm-color-primary-lighter: #897bad;
+  --ifm-color-primary-lightest: #9b8fbd;
+
+  --ifm-background-color: #f4f3f5;
+  --ifm-background-surface-color: #ffffff;
+
+  --ifm-font-family-base: Arial, sans-serif;
+}
+
+.hero {
+  background: #eeecf1;
+}
+
+/* Sidebar */
+
+.theme-doc-sidebar-container {
+  background: #eeecf1;
+}
+
+.menu__link {
+  color: #55515f;
+}
+
+.menu__link:hover {
+  color: #6b5b95;
+  background: #e4e0ea;
+}
+
+.menu__link--active {
+  color: #6b5b95;
+  background: #e2deea;
+  font-weight: 600;
+}
+
+.menu__caret:before {
+  filter: none;
+}/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 100px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
